@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/splashbg"
-    tools:context=".splashscreen">
+    tools:context=".Splashscreen">
 
     <ImageView
         android:id="@+id/splimage"
-        android:layout_width="412dp"
+        android:layout_width="410dp"
         android:layout_height="305dp"
         android:layout_marginTop="110dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,8 +22,11 @@
         android:id="@+id/spltext1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="70dp"
         android:text="Welcome"
+        android:textColor="@color/textwhite"
+        android:textSize="26sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,9 +36,12 @@
         android:id="@+id/spltext2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="50dp"
         android:text="Nice to meet you! Let's make \n your knowledge great"
         android:textAlignment="center"
+        android:textColor="@color/textwhite"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/spltext1"
         app:layout_constraintStart_toStartOf="@+id/spltext1"
         app:layout_constraintTop_toBottomOf="@+id/spltext1" />
@@ -44,11 +50,15 @@
         android:id="@+id/spltext3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="30dp"
         android:text="Designed by \n Mrityunajay Singh"
         android:textAlignment="center"
+        android:textColor="@color/textwhite"
+        android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/spltext2"
         app:layout_constraintStart_toStartOf="@+id/spltext2"
         app:layout_constraintTop_toBottomOf="@+id/spltext2" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
